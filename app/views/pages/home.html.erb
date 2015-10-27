@@ -1,5 +1,49 @@
 
-<div class="jumbotron">
+<div class="jumbotron center">
 	<h1>Welcome to Quick Homes</h1>
-	<p>For special discounts and offers <%= link_to "SIGN UP HERE", "#", class: "btn btn-primary" %></p>	
+	<p>
+       <%= link_to "Log in", "#", class: "btn btn-default btn-lg" %>
+       <%= link_to "Sign up", "#", class: "btn btn-primary btn-lg" %>
+
+       <p>Sign up for free today for special offers and savings.
+  </p>    
 </div>
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+ 
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src = "img/house.jpg" alt="house">
+      <div class="carousel-caption">
+          <h3>Find your brand new dream home from all our featured listings.</h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1200x315" alt="...">
+      <div class="carousel-caption">
+          <h3>Need a realtor? Search our approved list of realtor's in your area.</h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1200x315" alt="...">
+      <div class="carousel-caption">
+          <h3>Need to connect with trade professionals? We have an indepth list for services in your area,</h3>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div> <!-- Carousel -->
